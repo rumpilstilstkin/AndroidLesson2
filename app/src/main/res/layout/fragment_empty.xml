@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fe_container_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="#ff00ff"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/Widget.Platform.TextView.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tittle" />
+
+    <TextView
+        style="@style/Widget.Platform.TextView.Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description" />
+
+    <EditText
+        style="@style/CustomEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Some text for input" />
+
+</LinearLayout>
