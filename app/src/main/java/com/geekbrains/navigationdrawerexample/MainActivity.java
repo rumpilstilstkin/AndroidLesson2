@@ -145,7 +145,7 @@ public class MainActivity extends AppCompatActivity
     private void setNewScreen(EmptyFragment fragment){
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.add(R.id.content, fragment);
+        fragmentTransaction.replace(R.id.content, fragment);
         fragmentTransaction.commit();
     }
 }
