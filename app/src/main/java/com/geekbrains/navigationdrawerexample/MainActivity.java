@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity
     private void initHeader(){
         ImageView imageView = (ImageView) navigationView.getHeaderView(0).findViewById(R.id.imageView);
         TextView nameView = (TextView) navigationView.getHeaderView(0).findViewById(R.id.nameView);
-        imageView.setImageResource(R.drawable.ic_profile);
+        imageView.setImageResource(R.drawable.some_selector);
         nameView.setText("Nina");
     }
 

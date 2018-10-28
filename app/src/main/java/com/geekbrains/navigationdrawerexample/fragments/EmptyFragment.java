@@ -17,6 +17,8 @@ public class EmptyFragment extends Fragment {
 
     static String ARGS_COLOR = "COLOR_ARGS";
 
+    private int color = 0;
+
 
     public static EmptyFragment getInstats(int color){
         EmptyFragment fragment = new EmptyFragment();

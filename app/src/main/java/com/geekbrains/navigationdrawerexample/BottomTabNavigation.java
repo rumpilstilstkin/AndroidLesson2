@@ -15,7 +15,8 @@ import android.view.MenuItem;
 import com.geekbrains.navigationdrawerexample.fragments.EmptyFragment;
 
 
-public class BottomTabNavigation extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
+public class BottomTabNavigation extends AppCompatActivity
+        implements BottomNavigationView.OnNavigationItemSelectedListener {
 
     public static Intent getIntent(Context context, HomeScreen screen) {
         Intent intent = new Intent(context, BottomTabNavigation.class);
